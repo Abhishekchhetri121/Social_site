@@ -108,7 +108,7 @@ $image_class = new Image();
             <!---mates-->
             <div id="d1">
                 <div id="fbar">
-                    Mates
+                    Friends
 
                     <?php
                     if ($friends) {
