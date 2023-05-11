@@ -39,7 +39,8 @@
         </div>
 
 
-        <?php echo $row['post']; ?>
+        <?php echo htmlspecialchars($row['post']); //treates special character 
+        ?>
         <br><br>
         <?php
         if (file_exists($row['image'])) {
